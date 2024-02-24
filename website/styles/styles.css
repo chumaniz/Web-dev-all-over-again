@@ -2,6 +2,7 @@ h1 {
     font-family: "Anta", sans-serif;
     font-weight: 600;
     font-style: normal;
+    text-align: center;
 }
 
 p {
@@ -20,3 +21,10 @@ li {
     font-style: normal;
 }
 
+#koenigsegg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+
+}
