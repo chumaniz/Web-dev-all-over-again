@@ -2,12 +2,12 @@
 
  myImage.onclick = () => {
    const mySrc = myImage.getAttribute("src");
-    if (mySrc === "../images/koenigsegg.jpg"){
-     myImage.setAttribute("src", "../images/koenigsegg2.jpg");
+    if (mySrc === "images/koenigsegg.jpg"){
+     myImage.setAttribute("src", "images/koenigsegg2.jpg");
     } else {
      myImage.setAttribute("src", "images/koenigsegg.jpg");
     }
-        };
+};
 
 let myButton = document.querySelector("button");
 myButton.onclick = () => {
