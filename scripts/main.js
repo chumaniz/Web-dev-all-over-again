@@ -3,9 +3,9 @@
  myImage.onclick = () => {
    const mySrc = myImage.getAttribute("src");
     if (mySrc === "../images/koenigsegg.jpg"){
-     myImage.setAttribute("src", "../images/koenigsegg2.jpg");
+     myImage.setAttribute("src", "images/koenigsegg2.jpg");
     } else {
-     myImage.setAttribute("src", "../images/koenigsegg.jpg");
+     myImage.setAttribute("src", "images/koenigsegg.jpg");
     }
         };
 
